@@ -1,0 +1,13 @@
+[package]
+distribution = "2201.0.2"
+org = "balHack"
+name="problem_2_3"
+version="1.0.0"
+
+[build-options]
+observabilityIncluded = true
+
+[[platform.java11.dependency]]
+artifactId = "h2"
+version = "2.0.206"
+groupId = "com.h2database"

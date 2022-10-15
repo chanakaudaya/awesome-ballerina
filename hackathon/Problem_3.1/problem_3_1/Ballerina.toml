@@ -1,0 +1,8 @@
+[package]
+distribution = "2201.0.0"
+org = "balhack"
+name="problem_3_1"
+version="1.0.0"
+
+[build-options]
+observabilityIncluded = true
