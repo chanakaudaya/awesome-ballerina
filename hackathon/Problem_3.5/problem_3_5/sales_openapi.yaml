@@ -1,0 +1,65 @@
+openapi: 3.0.1
+info:
+  title: Sales
+  version: 0.1.0
+servers: []
+paths:
+  /:
+    get:
+      summary: Get total sales
+      operationId: get
+      parameters:
+      - name: year
+        in: query
+        description: 'Query param to specify the year  '
+        required: true
+        schema:
+          type: integer
+          format: int64
+      - name: quarter
+        in: query
+        description: Optional query param quarter
+        schema:
+          type: string
+          nullable: true
+      responses:
+        "200":
+          description: Ok
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Sales'
+        "400":
+          description: BadRequest
+components:
+  schemas:
+    Sales:
+      required:
+      - amount
+      - customerId
+      - quarter
+      - year
+      type: object
+      properties:
+        customerId:
+          type: string
+          description: Customer's ID
+        amount:
+          type: number
+          description: Total amount of sales for the customer
+          format: double
+        quarter:
+          type: string
+          description: Quarter in which these sales were reported
+          enum:
+          - Q4
+          - Q3
+          - Q2
+          - Q1
+        year:
+          type: integer
+          description: Year for which these sales values belong
+          format: int64
+      description: Represents total sales per customer

@@ -1,0 +1,144 @@
+{
+    "sleep": [
+        {
+            "date": "2022-03-20",
+            "duration": 28800,
+            "levels": {
+                "summary": {
+                    "deep": {
+                        "minutes": 19000,
+                        "thirtyDayAvgMinutes": 23000
+                    },
+                    "light": {
+                        "minutes": 9000,
+                        "thirtyDayAvgMinutes": 7500
+                    },
+                    "wake": {
+                        "minutes": 800,
+                        "thirtyDayAvgMinutes": 700
+                    }
+                }
+            }
+        },
+        {
+            "date": "2022-03-15",
+            "duration": 28080,
+            "levels": {
+                "summary": {
+                    "deep": {
+                        "minutes": 20900,
+                        "thirtyDayAvgMinutes": 23000
+                    },
+                    "light": {
+                        "minutes": 8080,
+                        "thirtyDayAvgMinutes": 7500
+                    },
+                    "wake": {
+                        "minutes": 180,
+                        "thirtyDayAvgMinutes": 700
+                    }
+                }
+            }
+        },
+        {
+            "date": "2022-03-10",
+            "duration": 28080,
+            "levels": {
+                "summary": {
+                    "deep": {
+                        "minutes": 20000,
+                        "thirtyDayAvgMinutes": 23000
+                    },
+                    "light": {
+                        "minutes": 8080,
+                        "thirtyDayAvgMinutes": 7500
+                    },
+                    "wake": {
+                        "minutes": 80,
+                        "thirtyDayAvgMinutes": 700
+                    }
+                }
+            }
+        },
+        {
+            "date": "2022-02-10",
+            "duration": 23400,
+            "levels": {
+                "summary": {
+                    "deep": {
+                        "minutes": 20000,
+                        "thirtyDayAvgMinutes": 23000
+                    },
+                    "light": {
+                        "minutes": 3000,
+                        "thirtyDayAvgMinutes": 7500
+                    },
+                    "wake": {
+                        "minutes": 400,
+                        "thirtyDayAvgMinutes": 700
+                    }
+                }
+            }
+        },
+        {
+            "date": "2022-02-03",
+            "duration": 27000,
+            "levels": {
+                "summary": {
+                    "deep": {
+                        "minutes": 20000,
+                        "thirtyDayAvgMinutes": 23000
+                    },
+                    "light": {
+                        "minutes": 7000,
+                        "thirtyDayAvgMinutes": 7500
+                    },
+                    "wake": {
+                        "minutes": 0,
+                        "thirtyDayAvgMinutes": 700
+                    }
+                }
+            }
+        },
+        {
+            "date": "2022-01-07",
+            "duration": 25200,
+            "levels": {
+                "summary": {
+                    "deep": {
+                        "minutes": 20000,
+                        "thirtyDayAvgMinutes": 23000
+                    },
+                    "light": {
+                        "minutes": 5000,
+                        "thirtyDayAvgMinutes": 7500
+                    },
+                    "wake": {
+                        "minutes": 200,
+                        "thirtyDayAvgMinutes": 700
+                    }
+                }
+            }
+        },
+        {
+            "date": "2022-01-01",
+            "duration": 28800,
+            "levels": {
+                "summary": {
+                    "deep": {
+                        "minutes": 20000,
+                        "thirtyDayAvgMinutes": 23000
+                    },
+                    "light": {
+                        "minutes": 8000,
+                        "thirtyDayAvgMinutes": 7500
+                    },
+                    "wake": {
+                        "minutes": 800,
+                        "thirtyDayAvgMinutes": 700
+                    }
+                }
+            }
+        }
+    ]
+}

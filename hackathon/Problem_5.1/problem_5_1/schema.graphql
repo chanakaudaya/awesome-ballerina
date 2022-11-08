@@ -1,0 +1,20 @@
+type Query {
+  sleepSummary(ID: String!, timeunit: TimeUnit!): [SleepSummary!]!
+}
+
+enum TimeUnit {
+  SECONDS
+  MINUTES
+}
+
+type SleepSummary {
+  date: String!
+  duration: Int!
+  levels: Levels!
+}
+
+type Levels {
+  deep: Int!
+  wake: Int!
+  light: Int!
+}

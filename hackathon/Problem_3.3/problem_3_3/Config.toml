@@ -1,0 +1,7 @@
+refreshToken = "24f19603-8565-4b5f-a036-88a945e1f272"
+clientSecret = "PJz0UhTJMrHOo68QQNpvnqAY_3Aa"
+clientId = "FlfJYKBD2c925h4lkycqNZlC2l4a"
+tokenEndpoint = "https://localhost:9445/oauth2/token"
+
+username = "alice"
+password = "123"

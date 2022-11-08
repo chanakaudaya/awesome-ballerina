@@ -1,0 +1,74 @@
+openapi: 3.0.1
+info:
+  title: Customers
+  version: 0.1.0
+servers: []
+paths:
+  /:
+    get:
+      summary: List customers
+      operationId: get
+      responses:
+        "200":
+          description: Ok
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Customer'
+  /{byCustomerId}:
+    get:
+      summary: Get a customer by ID
+      operationId: getBycustomerid
+      parameters:
+      - name: byCustomerId
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        "200":
+          description: Ok
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Customer'
+        "404":
+          description: NotFound
+components:
+  schemas:
+    Address:
+      required:
+      - city
+      - country
+      - postalCode
+      - street
+      type: object
+      properties:
+        street:
+          type: string
+        city:
+          type: string
+        country:
+          type: string
+        postalCode:
+          type: string
+      description: Represents a customer's address
+    Customer:
+      required:
+      - address
+      - firstName
+      - id
+      - lastName
+      type: object
+      properties:
+        id:
+          type: string
+        firstName:
+          type: string
+        lastName:
+          type: string
+        address:
+          $ref: '#/components/schemas/Address'
+      description: Represents a customer

@@ -1,0 +1,17 @@
+type ActivityDetails {
+  date: String!
+  steps: Int!
+  heart: Heart!
+}
+
+type Heart {
+  min: Int!
+  max: Int!
+  caloriesOut: Float!
+  minutes: Int!
+  name: String!
+}
+
+type Query {
+  activity(ID: String!): [ActivityDetails!]!
+}

@@ -1,0 +1,84 @@
+{
+    "stepsActivity": [
+        {
+            "date": "2022-03-20",
+            "steps": 1001
+        },
+        {
+            "date": "2022-03-15",
+            "steps": 4400
+        },
+        {
+            "date": "2022-03-10",
+            "steps": 837
+        },
+        {
+            "date": "2022-02-10",
+            "steps": 7777
+        },
+        {
+            "date": "2022-02-03",
+            "steps": 8567
+        },
+        {
+            "date": "2022-01-07",
+            "steps": 3723
+        },
+        {
+            "date": "2022-01-01",
+            "steps": 2565
+        }
+    ],
+    "heartActivity": [
+        {
+            "date": "2022-03-10",
+            "heart": {
+                "caloriesOut": 514.16208,
+                "max": 111,
+                "min": 87,
+                "minutes": 186,
+                "name": "Fat Burn"
+            }
+        },
+        {
+            "date": "2022-02-10",
+            "heart": {
+                "caloriesOut": 6.984,
+                "max": 218,
+                "min": 145,
+                "minutes": 4,
+                "name": "Peak"
+            } 
+        },
+        {
+            "date": "2022-02-03",
+            "heart": {
+                "caloriesOut": 190.92656,
+                "max": 147,
+                "min": 121,
+                "minutes": 18,
+                "name": "Cardio"
+            }
+        },
+        {
+            "date": "2022-01-07",
+            "heart": {
+                "caloriesOut": 599.16208,
+                "max": 111,
+                "min": 83,
+                "minutes": 184,
+                "name": "Fat Burn"
+            }
+        },
+        {
+            "date": "2022-01-01",
+            "heart": {
+                "caloriesOut": 979.43616,
+                "max": 86,
+                "min": 30,
+                "minutes": 626,
+                "name": "Out of Range"
+            }
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "stepsActivity": [
+        {
+            "date": "2022-01-01",
+            "value": 2504
+        },
+        {
+            "date": "2022-01-07",
+            "value": 3723
+        },
+        {
+            "date": "2022-02-03",
+            "value": 8304
+        },
+        {
+            "date": "2022-02-10",
+            "value": 7861
+        },
+        {
+            "date": "2022-03-10",
+            "value": 837
+        },
+        {
+            "date": "2022-03-15",
+            "value": 4103
+        },
+        {
+            "date": "2022-03-20",
+            "value": 1698
+        }
+    ],
+    "user": {
+        "name": "Joe Miden",
+        "display-name": "Joe",
+        "age": 70,
+        "email": "joe.miden@zmail.com",
+        "state": "California",
+        "city": "SF",
+        "address": "450 R StLincoln, California(CA), 95648"
+    }
+}

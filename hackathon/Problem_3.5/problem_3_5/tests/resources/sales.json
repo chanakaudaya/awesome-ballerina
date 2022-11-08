@@ -1,0 +1,130 @@
+[
+    {
+        "customerId": "1",
+        "amount": 51000.00,
+        "quarter": "Q1",
+        "year": 2022
+    },
+    {
+        "customerId": "1",
+        "amount": 10000.00,
+        "quarter": "Q1",
+        "year": 2021
+    },
+    {
+        "customerId": "1",
+        "amount": 21000.00,
+        "quarter": "Q2",
+        "year": 2021
+    },
+    {
+        "customerId": "1",
+        "amount": 5000.00,
+        "quarter": "Q3",
+        "year": 2021
+    },
+    {
+        "customerId": "1",
+        "amount": 5000.00,
+        "quarter": "Q4",
+        "year": 2021
+    },
+    
+
+    {
+        "customerId": "2",
+        "amount": 23000.00,
+        "quarter": "Q1",
+        "year": 2022
+    },
+    {
+        "customerId": "2",
+        "amount": 7800.00,
+        "quarter": "Q1",
+        "year": 2021
+    },
+    {
+        "customerId": "2",
+        "amount": 1000.00,
+        "quarter": "Q2",
+        "year": 2021
+    },
+    {
+        "customerId": "2",
+        "amount": 12400.00,
+        "quarter": "Q3",
+        "year": 2021
+    },
+    {
+        "customerId": "2",
+        "amount": 37000.00,
+        "quarter": "Q4",
+        "year": 2021
+    },
+
+
+    {
+        "customerId": "3",
+        "amount": 980.00,
+        "quarter": "Q1",
+        "year": 2022
+    },
+    {
+        "customerId": "3",
+        "amount": 17800.00,
+        "quarter": "Q1",
+        "year": 2020
+    },
+    {
+        "customerId": "3",
+        "amount": 500.00,
+        "quarter": "Q1",
+        "year": 2019
+    },
+    {
+        "customerId": "3",
+        "amount": 9500.00,
+        "quarter": "Q2",
+        "year": 2019
+    },
+
+
+    {
+        "customerId": "4",
+        "amount": 9180.00,
+        "quarter": "Q1",
+        "year": 2019
+    },
+    {
+        "customerId": "4",
+        "amount": 1790.00,
+        "quarter": "Q2",
+        "year": 2019
+    },
+
+
+    {
+        "customerId": "5",
+        "amount": 9800.00,
+        "quarter": "Q1",
+        "year": 2020
+    },
+    {
+        "customerId": "5",
+        "amount": 7560.00,
+        "quarter": "Q1",
+        "year": 2019
+    },
+    {
+        "customerId": "5",
+        "amount": 9000.00,
+        "quarter": "Q2",
+        "year": 2019
+    },
+    {
+        "customerId": "5",
+        "amount": 9000.00,
+        "quarter": "Q2",
+        "year": 2018
+    }
+]
